@@ -83,5 +83,18 @@ namespace LaboratorioWebApi.Controllers
 
             return Ok($"Publicacion con ID {id} eliminada exitosamente");
         }
+
+        [HttpGet]
+        [Route("PublicacionPorUsuario/{usuarioId}")]
+        public IActionResult ComentariosPorUsuario(int usuarioId)
+        {
+            var publicacion = _contexto.Publicaciones.Where(p => p.UsuarioId == usuarioId).ToList();
+            if (publicacion.Count == 0)
+            {
+                return NotFound($"No se encontro la publicacion por usuario con ID {usuarioId}");
+            }
+
+            return Ok(publicacion);
+        }
     }
 }
