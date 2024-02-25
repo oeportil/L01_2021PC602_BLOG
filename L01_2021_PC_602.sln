@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaboratorioWebApi", "LaboratorioWebApi\LaboratorioWebApi.csproj", "{CD016370-8C99-4181-B2B0-0604FC23EB52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L01_2021_PC_602", "LaboratorioWebApi\L01_2021_PC_602.csproj", "{CD016370-8C99-4181-B2B0-0604FC23EB52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
