@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace LaboratorioWebApi.Models;
 
-public partial class Publicacione
+public partial class Publicaciones
 {
+    [Key]
     public int PublicacionId { get; set; }
 
     public string Titulo { get; set; } = null!;

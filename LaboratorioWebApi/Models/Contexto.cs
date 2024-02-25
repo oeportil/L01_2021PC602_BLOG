@@ -9,14 +9,14 @@ namespace LaboratorioWebApi.Models
         {
   
         }
-        public virtual DbSet<Calificacione> Calificaciones { get; set; }
+        public virtual DbSet<Calificaciones> Calificaciones { get; set; }
 
-        public virtual DbSet<Comentario> Comentarios { get; set; }
+        public virtual DbSet<Comentarios> Comentarios { get; set; }
 
-        public virtual DbSet<Publicacione> Publicaciones { get; set; }
+        public virtual DbSet<Publicaciones> Publicaciones { get; set; }
 
-        public virtual DbSet<Role> Roles { get; set; }
+        public virtual DbSet<Roles> Roles { get; set; }
 
-        public virtual DbSet<Usuario> Usuarios { get; set; }
+        public virtual DbSet<Usuarios> Usuarios { get; set; }
     }
 }

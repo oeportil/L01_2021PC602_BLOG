@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace LaboratorioWebApi.Models;
 
-public partial class Usuario
+public partial class Usuarios
 {
+    [Key]
     public int UsuarioId { get; set; }
 
     public int? RolId { get; set; }
